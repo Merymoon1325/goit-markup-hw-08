@@ -1,0 +1,50 @@
+.characteristics {
+  display: flex;
+  gap: 30px;
+  padding-left: 0;
+  .characteristics__items {
+    padding-top: 95px;
+    list-style: none;
+    .div-icon {
+      width: 270px;
+      height: 120px;
+      border-radius: 4px;
+      background: rgb(245, 244, 250);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 30px;
+      .lienzo-services {
+        width: 70px;
+      }
+    }
+    .subtitle {
+      color: $secon-color;
+      font-family: "Roboto", sans-serif;
+      font-weight: 700;
+      line-height: 1.17;
+      letter-spacing: 0.03em;
+      text-align: left;
+      font-size: 14px;
+    }
+    .subtitle--gris {
+      color: $light-color;
+      font-family: "Roboto", sans-serif;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      text-align: left;
+      font-size: 14px;
+      line-height: 1.17;
+    }
+    .parrafo {
+      color: $light-color;
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      line-height: 1.71;
+      letter-spacing: 0.03em;
+      text-align: left;
+      font-size: 14px;
+      padding-top: 10px;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="iconboletincono-revisado" viewBox="0 0 34 32">
+<path fill="#2196f3" style="fill: var(--color1, #2196f3)" d="M4.267 0h25.6c2.356 0 4.267 1.91 4.267 4.267v23.467c0 2.356-1.91 4.267-4.267 4.267h-25.6c-2.356 0-4.267-1.91-4.267-4.267v-23.467c0-2.356 1.91-4.267 4.267-4.267z"></path>
+<path fill="#fff" style="fill: var(--color2, #fff); stroke: var(--color2, #fff)" stroke="#fff" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.4267" d="M8.442 16.537l-0.147-0.14-2.205 2.088 7.767 7.41 16.318-15.567-2.19-2.089-14.128 13.465-5.416-5.167z"></path>
+</symbol>
+<symbol id="iconboletinVector" viewBox="0 0 34 32">
+<path fill="#e5e5e5" style="fill: var(--color3, #e5e5e5)" d="M0 0h34.133v32h-34.133v-32z"></path>
+<path fill="#fff" style="fill: var(--color2, #fff)" d="M-1254.4-1414.4h3413.333v2184.533h-3413.333v-2184.533z"></path>
+<path fill="#c4c4c4" style="fill: var(--color4, #c4c4c4)" d="M-1254.4-1243.733h3413.333v1280h-3413.333v-1280z"></path>
+<path fill="#000" style="fill: var(--color5, #000)" d="M-1254.4-1243.733h3413.333v1280h-3413.333v-1280z"></path>
+<path fill="#2f303a" style="fill: var(--color6, #2f303a)" opacity="0.4" d="M-1254.4-1243.733h3413.333v1280h-3413.333v-1280z"></path>
+<path fill="#000" style="fill: var(--color5, #000)" opacity="0.2" d="M-1254.4-1414.4h3413.333v2184.533h-3413.333v-2184.533z"></path>
+<path fill="#fff" style="fill: var(--color2, #fff)" d="M-110.933-934.4c0-4.713 3.821-8.533 8.533-8.533h1109.333c4.713 0 8.533 3.821 8.533 8.533v1222.4c0 4.713-3.821 8.533-8.533 8.533h-1109.333c-4.713 0-8.533-3.821-8.533-8.533v-1222.4z"></path>
+<path fill="#212121" style="fill: var(--color7, #212121)" d="M30.341 3.556v24.889h-26.548v-24.889h26.548zM30.341 0h-26.548c-2.086 0-3.793 1.6-3.793 3.556v24.889c0 1.956 1.707 3.556 3.793 3.556h26.548c2.086 0 3.793-1.6 3.793-3.556v-24.889c0-1.956-1.707-3.556-3.793-3.556z"></path>
+</symbol>
+</defs>
+</svg>

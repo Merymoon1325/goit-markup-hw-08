@@ -1,0 +1,102 @@
+.ppal__section .container {
+  padding: 0px;
+  .menu__list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    gap: 30px;
+  }
+  .menu__button {
+    color: $secon-color;
+    background: rgb(245, 244, 250);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    line-height: 1.62;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    padding: 8px 16px;
+    &:hover {
+      color: $white-color;
+      background-color: $brand-color;
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    &:focus {
+      color: $white-color;
+      background-color: $brand-color;
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }
+  .menu__button--blue {
+    background-color: $brand-color;
+    color: $white-color;
+  }
+  .menu__item {
+    padding-top: 106px;
+    padding-bottom: 50px;
+  }
+  .target__item {
+    flex-basis: calc((100% - 60px) / 3);
+    border: 1px solid rgb(238, 238, 238);
+    background: $white-color;
+    &:hover {
+      box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+        0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+    }
+  }
+  .target__text {
+    display: flex;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    align-items: center;
+    text-align: left;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.54px;
+    background: rgba(33, 150, 243, 0.9);
+    color: $white-color;
+    transition: top 250ms ease;
+  }
+  .target__div {
+    position: relative;
+    overflow: hidden;
+    &:hover > .target__text {
+      top: -7%;
+      cursor: pointer;
+    }
+  }
+  .target__title {
+    color: $secon-color;
+    font-weight: 700;
+    line-height: 2;
+    font-size: 18px;
+    letter-spacing: 0.06em;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .target__subtitle {
+    color: rgb(117, 117, 117);
+    font-weight: 400;
+    line-height: 1.87;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .targert__list {
+    padding: 0px;
+    padding-bottom: 82px;
+  }
+}

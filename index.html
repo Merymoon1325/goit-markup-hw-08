@@ -30,7 +30,6 @@
         </ul>
       </nav>
       
-
       <ul class="header__list">
         <li class="header__items">
           <a class="header__link" 
@@ -259,6 +258,7 @@
                 alt="Tarjeta del quipo 1"
                 width="270"
                 height="260"
+                class="team__img"
               />
               <h3 class="team__name">Andrés Cubo</h3>
               <p class="team__parrafo">Diseñador de productos</p>
@@ -307,6 +307,7 @@
                 alt="Tarjeta del equipo 2"
                 width="270"
                 height="260"
+                class="team__img"
               />
               <h3 class="team__name">Carla Palacios</h3>
               <p class="team__parrafo">Desarrolladora Frontend</p>
@@ -357,6 +358,7 @@
                 alt="Tarjeta del equipo 3"
                 width="270"
                 height="260"
+                class="team__img"
               />
               <h3 class="team__name">Mario Dorado</h3>
               <p class="team__parrafo">Marketing</p>
@@ -405,6 +407,7 @@
                 alt="Tarjeta del equipo 4"
                 width="270"
                 height="260"
+                class="team__img"
               />
               <h3 class="team__name">Pablo Mijangos</h3>
               <p class="team__parrafo">Diseñador IU</p>
@@ -516,6 +519,7 @@
     <footer>
       <address class="contact">
         <div class="container foot">
+          <div class="logocontact">
           <ul class="contact__list">
             <li class="contact__item">
               <a class="logo" href="#">WebStudio</a>
@@ -580,12 +584,13 @@
             </li>
           </ul>
         </div>
+        </div>
 
         <div class="boletin">
           <h3 class="boletin__text">SUSCRÍBASE AL BOLETÍN INFORMATIVO</h3>
            <form name="formulario-footer" action="" autocomplete="on" class="formulario" novalidate>
           <div class="formulario__div">   
-                <label for="inputCorreo"></label>
+                <label for="inputCorreo" class="formulario__label"></label>
                 <input type="text" id="inputCorreo" placeholder="Correo electrónico" class="formulario__email">
               <button type="submit" class="subscribe">
                 <p class="subscribe__text">suscríbase</p>

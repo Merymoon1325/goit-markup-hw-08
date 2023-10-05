@@ -1036,6 +1036,8 @@
   position: absolute;
   right: 0%;
   display: none;
+  top: 2.5%;
+  right: 2%;
 }
 
 @media (max-width: 1600px) {
@@ -1155,8 +1157,73 @@
 }
 
 @media (max-width: 480px) {
+  .container {
+    width: 480px;
+  }
+  .main__title {
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 42px;
+    letter-spacing: 1.56px;
+  }
+  .main-section {
+    margin-bottom: 60px;
+  }
+  .div-icon {
+    width: 450px;
+    height: 120px;
+  }
+  .subtitle {
+    display: flex;
+    justify-content: center;
+  }
+  .subtitle--gris {
+    display: flex;
+    justify-content: center;
+  }
+  .parrafo {
+    width: 450px;
+    height: 50px;
+  }
+  .characteristics__items {
+    padding-top: 0px;
+  }
+  .team__list .team__item {
+    width: 450px;
+    height: 622px;
+  }
+  .team__img {
+    width: 450px;
+    height: 460px;
+  }
+  .clientes__div {
+    width: 210px;
+    height: 92px;
+  }
   .menu-toggle {
     display: block;
+    cursor: pointer;
+  }
+  .menu-toggle:hover {
+    color: var(--brand-color);
+  }
+  .menu-toggle:focus {
+    color: var(--brand-color);
+  }
+  .menu-toggle.js-close-menu:hover {
+    fill: var(--brand-color);
+  }
+  .menu-toggle.js-close-menu:focus {
+    fill: var(--brand-color);
+  }
+  .menu-toggle.js-close-menu:focus-within {
+    fill: var(--brand-color);
+  }
+  .link {
+    cursor: pointer;
+  }
+  .mobile-menu .link:hover {
+    color: var(--brand-color);
   }
   .menu-container {
     display: block;
@@ -1164,5 +1231,47 @@
   .team__item {
     width: 354px;
     height: 536px;
+  }
+  .header-navegation__list {
+    display: none;
+  }
+  .header__list {
+    display: none;
+  }
+  .header {
+    justify-content: left;
+  }
+  .logo {
+    padding-left: 25px;
+    padding-bottom: 28px;
+  }
+  .logocontact {
+    flex-wrap: wrap;
+    gap: 0px;
+    justify-content: center;
+  }
+  .contact__list {
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .formulario__email {
+    margin-left: 0px;
+    width: 450px;
+    height: 50px;
+  }
+  .boletin {
+    margin-left: 0px;
+  }
+  .subscribe {
+    margin-left: 130px;
+  }
+  .boletin__text {
+    margin-bottom: 20px;
+    margin-top: 60px;
+    margin-left: 90px;
+  }
+  .redes {
+    margin-left: 8px;
   }
 }

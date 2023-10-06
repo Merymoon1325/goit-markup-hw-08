@@ -48,3 +48,312 @@
 .menu-container.is-open {
   transform: translateX(0);
 }
+.mobile-menu {
+  padding: 0;
+  margin-bottom: 306px;
+  list-style: none;
+  .link {
+    display: block;
+    padding: 10px;
+    color: #212121;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.8px;
+  }
+}
+.mobile-menu__list {
+  list-style: none;
+  padding: 0;
+  .mobile-menu__item-tel {
+    margin-bottom: 32px;
+    .mobile-menu__tel {
+      color: $brand-color;
+      font-family: Roboto;
+      font-size: 34px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 0.68px;
+      text-decoration: none;
+    }
+  }
+  .mobile-menu__item-email {
+    margin-bottom: 64px;
+    .mobile-menu__email {
+      color: $light-color;
+      font-family: Roboto;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 0.48px;
+      text-decoration: none;
+    }
+  }
+}
+.mobile-menu__list-redes {
+  display: flex;
+  padding: 0;
+  list-style: none;
+  .mobile-menu__item-redes {
+    padding-right: 10px;
+    .mobile-menu__redes {
+      text-decoration: none;
+      color: $brand-color;
+      font-family: Roboto;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 22px; /* 122.222% */
+      letter-spacing: 0.36px;
+    }
+  }
+}
+.mobile-menu__redes--guion::after {
+  display: inline-block;
+  margin-left: 10px;
+  content: "";
+  width: 1px;
+  height: 22px;
+  background: rgba(33, 33, 33, 0.2);
+}
+
+// @media (max-width: 1600px) {
+//   .menu-container {
+//     display: none;
+//   }
+//   .menu-toggle {
+//     display: none;
+//   }
+// }
+
+// @media (max-width: 768px) {
+//   .container {
+//     width: 768px;
+//   }
+//   .header {
+//     gap: 50px;
+//   }
+//   .header__list {
+//     flex-direction: column;
+//     margin-top: 10px;
+//     gap: 10px;
+//     align-items: flex-start;
+//   }
+//   .header__navegation {
+//     gap: 60px;
+//   }
+//   .header__link {
+//     display: flex;
+//     align-items: center;
+//     gap: 8px;
+//   }
+//   .main__title {
+//     font-size: 26px;
+//     line-height: 42px; /* 161.538% */
+//     letter-spacing: 1.56px;
+//   }
+//   .menu-container {
+//     display: none;
+//   }
+//   .menu-toggle {
+//     display: none;
+//   }
+//   .characteristics {
+//     flex-wrap: wrap;
+//   }
+//   .div-icon {
+//     width: 354px;
+//     height: 120px;
+//   }
+//   .parrafo {
+//     width: 354px;
+//     height: 75px;
+//   }
+//   .services {
+//     display: none;
+//   }
+//   .services__list {
+//     display: none;
+//   }
+//   .team {
+//     margin-top: 60px;
+//   }
+//   .team__list {
+//     flex-wrap: wrap;
+//     padding-left: 15px;
+//     padding-right: 15px;
+//   }
+//   .clientes__list {
+//     flex-wrap: wrap;
+//   }
+//   .clientes__div {
+//     width: 226px;
+//     height: 92px;
+//   }
+//   .container.foot {
+//     flex-wrap: wrap;
+//   }
+//   .logocontact {
+//     gap: 165px;
+//   }
+//   .contact__list {
+//     text-align: center;
+//   }
+//   .logo {
+//     padding-left: 25px;
+//   }
+//   .redes {
+//     align-items: center;
+//   }
+//   .redes {
+//     flex-wrap: wrap;
+//   }
+//   .formulario__email {
+//     margin-left: 50px;
+//     width: 450px;
+//     height: 50px;
+//   }
+//   .formulario__div {
+//     flex-direction: column;
+//   }
+//   .subscribe {
+//     margin-left: 160px;
+//     margin-top: 20px;
+//   }
+//   .boletin__text {
+//     margin-left: 125px;
+//   }
+//   .team__list .team__item {
+//     width: 339px;
+//     height: 536px;
+//   }
+//   .team__img {
+//     width: 339px;
+//     height: 374px;
+//   }
+// }
+
+// @media (max-width: 480px) {
+//   .container {
+//     width: 480px;
+//   }
+//   .main__title {
+//     font-size: 26px;
+//     font-weight: 900;
+//     line-height: 42px;
+//     letter-spacing: 1.56px;
+//   }
+//   .main-section {
+//     margin-bottom: 60px;
+//   }
+//   .div-icon {
+//     width: 450px;
+//     height: 120px;
+//   }
+//   .subtitle {
+//     display: flex;
+//     justify-content: center;
+//   }
+//   .subtitle--gris {
+//     display: flex;
+//     justify-content: center;
+//   }
+//   .parrafo {
+//     width: 450px;
+//     height: 50px;
+//   }
+//   .characteristics__items {
+//     padding-top: 0px;
+//   }
+//   .team__list .team__item {
+//     width: 450px;
+//     height: 622px;
+//   }
+//   .team__img {
+//     width: 450px;
+//     height: 460px;
+//   }
+//   .clientes__div {
+//     width: 210px;
+//     height: 92px;
+//   }
+//   .menu-toggle {
+//     display: block;
+//     cursor: pointer;
+//   }
+//   .menu-toggle:hover {
+//     color: $brand-color;
+//   }
+//   .menu-toggle:focus {
+//     color: $brand-color;
+//   }
+//   .menu-toggle.js-close-menu:hover {
+//     fill: $brand-color;
+//   }
+//   .menu-toggle.js-close-menu:focus {
+//     fill: $brand-color;
+//   }
+//   .menu-toggle.js-close-menu:focus-within {
+//     fill: $brand-color;
+//   }
+//   .link {
+//     cursor: pointer;
+//   }
+//   .mobile-menu .link:hover {
+//     color: $brand-color;
+//   }
+//   .menu-container {
+//     display: block;
+//   }
+//   .team__item {
+//     width: 354px;
+//     height: 536px;
+//   }
+//   .header-navegation__list {
+//     display: none;
+//   }
+//   .header__list {
+//     display: none;
+//   }
+//   .header {
+//     justify-content: left;
+//   }
+//   .logo {
+//     padding-left: 25px;
+//     padding-bottom: 28px;
+//   }
+//   .logocontact {
+//     flex-wrap: wrap;
+//     gap: 0px;
+//     justify-content: center;
+//   }
+//   .contact__list {
+//     padding-bottom: 0px;
+//     padding-left: 30px;
+//     padding-right: 30px;
+//   }
+//   .formulario__email {
+//     margin-left: 0px;
+//     width: 450px;
+//     height: 50px;
+//   }
+//   .boletin {
+//     margin-left: 0px;
+//   }
+//   .subscribe {
+//     margin-left: 130px;
+//   }
+//   .boletin__text {
+//     margin-bottom: 20px;
+//     margin-top: 60px;
+//     margin-left: 90px;
+//   }
+//   .redes {
+//     margin-left: 8px;
+//   }
+// }

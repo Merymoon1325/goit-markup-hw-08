@@ -1268,3 +1268,23 @@
     margin-left: 8px;
   }
 }
+.main-section {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(47, 48, 58, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../img/Solucionesmobile.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main-section {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(47, 48, 58, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../img/Solucionestablet.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}

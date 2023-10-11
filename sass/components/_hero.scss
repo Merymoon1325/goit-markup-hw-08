@@ -4,6 +4,7 @@
 }
 .main-section {
   @include flexjustify("center", "flex");
+
   flex-wrap: wrap;
   width: auto;
   height: auto;
